@@ -27,7 +27,7 @@ a:hover {
 html,
 body {
   height: 100%;
-
+  /* Background image */
   background: url(/images/image.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -117,8 +117,7 @@ body {
 .cover {
   padding: 50px 20px;
 
-	background: rgba(255,255,255, 0.9);
-	border-radius: 0px;
+	background: rgba(255,255,255, 1);
 
   /* Center on Page */
   position: absolute;
@@ -141,6 +140,7 @@ body {
 .cover .btn-lg {
   padding: 10px 20px;
   font-weight: bold;
+  background-color: #eee;
 }
 
 
